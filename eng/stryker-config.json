@@ -19,7 +19,7 @@
       "block",
       "statement"
     ],
-    "concurrency": 4,
+    "concurrency": 32,
     "configuration": "Debug",
     "target-framework": "net8.0",
     "thresholds": {
