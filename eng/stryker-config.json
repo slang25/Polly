@@ -16,8 +16,6 @@
       "LogInformation"
     ],
     "ignore-mutations": [
-      "block",
-      "statement"
     ],
     "concurrency": 4,
     "configuration": "Debug",
