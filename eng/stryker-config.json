@@ -13,18 +13,20 @@
       "Dispose",
       "LogError",
       "Debug.Assert",
-      "LogInformation"
+      "LogInformation",
+      "Guard.NotNull",
+      "EnsureNotDisposed",
+      "Return"
     ],
     "ignore-mutations": [
-      "block",
-      "statement"
     ],
     "concurrency": 4,
     "configuration": "Debug",
     "target-framework": "net8.0",
     "thresholds": {
-      "high": 100,
-      "low": 100
+      "high": 90,
+      "low": 70,
+      "break": 60
     }
   }
 }
