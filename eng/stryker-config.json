@@ -23,7 +23,8 @@
     "target-framework": "net8.0",
     "thresholds": {
       "high": 90,
-      "low": 70
+      "low": 70,
+      "break": 60
     }
   }
 }
