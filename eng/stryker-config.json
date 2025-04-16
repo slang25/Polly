@@ -14,7 +14,8 @@
       "LogError",
       "Debug.Assert",
       "LogInformation",
-      "Guard.NotNull"
+      "Guard.NotNull",
+      "EnsureNotDisposed"
     ],
     "ignore-mutations": [
     ],
